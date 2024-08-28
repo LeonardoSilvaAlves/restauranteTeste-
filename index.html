@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Gourmet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Restaurante Gourmet</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Bem-vindo ao Restaurante Gourmet!</h2>
+            <p>Experimente a melhor comida da cidade.</p>
+            <a href="#menu" class="cta-button">Veja nosso menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Nosso Menu</h2>
+        <div class="container">
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="imagem1">
+                        <img src="https://via.placeholder.com/300x200?text=Prato+1" alt="Prato 1">
+                        <h3>Prato 1</h3>
+                        <p>Deliciosa refeição com ingredientes frescos.</p>
+                    </div>    
+                </div>
+                <div class="menu-item">
+                    <div class="imagem2">
+                        <img src="https://via.placeholder.com/300x200?text=Prato+2" alt="Prato 2">
+                        <h3>Prato 2</h3>
+                        <p>Uma explosão de sabores.</p>
+                    </div>
+                </div>
+                <!-- Adicione mais itens do menu conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Restaurante Gourmet. Todos os direitos reservados.</p>
+            <p>Créditos: Leonardo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
